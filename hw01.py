@@ -56,7 +56,7 @@ print(f"Part 1: y = {y}")
 print(f"Part 1: a = {a}")
 print(f"Part 1: b = {b}")
 print(f"Part 1: c = {c}")
-print(f"Part 1: result1 = {result1}")
+print(f"Part 1: result = {result1}")
 
     # End of Part 1 ----------------------
 
@@ -64,6 +64,12 @@ print(f"Part 1: result1 = {result1}")
     # Part 2: Power
     # =============================================
     # Your code for part 2 under this line and before the print statements
+x=5
+y=-3
+result2 = (x**2)*(y**4)
+print(f"Part 2: x = {x}")
+print(f"Part 2: y = {y}")
+print(f"Part 2: result = {result2}")
 
     # End of Part 2 ----------------------
 
