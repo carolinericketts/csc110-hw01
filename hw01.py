@@ -57,7 +57,6 @@ print(f"Part 1: a = {a}")
 print(f"Part 1: b = {b}")
 print(f"Part 1: c = {c}")
 print(f"Part 1: result = {result1}")
-
     # End of Part 1 ----------------------
 
 
@@ -70,7 +69,6 @@ result2 = (x**2)*(y**4)
 print(f"Part 2: x = {x}")
 print(f"Part 2: y = {y}")
 print(f"Part 2: result = {result2}")
-
     # End of Part 2 ----------------------
 
 
@@ -78,7 +76,12 @@ print(f"Part 2: result = {result2}")
     # Part 3: Integer divide
     # =============================================
     # Your code for part 3 under this line and before the print statements
-
+a=100
+b=13
+result3 = a//b
+print(f"Part 3: a = {a}")
+print(f"Part 3: b = {b}")
+print(f"Part 3: result = {result3}")
     # End of Part 3 ----------------------
 
 
