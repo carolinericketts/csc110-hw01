@@ -1,7 +1,7 @@
 # ------------------------------------------------------
 #        Name: Caroline Ricketts
-#       Peers: (add any collaborators)
-#  References: (anything you checked to solve this)
+#       Peers: N/A
+#  References: Lecture 03, Lecture 04, Lecture 05
 # ------------------------------------------------------
 
 
@@ -88,7 +88,8 @@ print(f"Part 3: result = {result3}")
     # Part 4: Modulo
     # =============================================
     # Your code for part 4 under this line and before the print statements
-
+result4 = a%b
+print(f"Part 4: result = {result4}")
     # End of Part 4 ----------------------
 
 if __name__ == "__main__":
