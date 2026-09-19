@@ -1,5 +1,5 @@
 # ------------------------------------------------------
-#        Name: (put your name here)
+#        Name: Caroline Ricketts
 #       Peers: (add any collaborators)
 #  References: (anything you checked to solve this)
 # ------------------------------------------------------
@@ -45,6 +45,18 @@ def main():
     # Part 1: Basic Operations
     # =============================================
     # Your code for part 1 under this line and before the print statements
+x=27
+y=1
+a=1.5
+b=7
+c=-1
+result1 = (3*x - 9*y)//((2*a)*(b-c))
+print(f"Part 1: x = {x}")
+print(f"Part 1: y = {y}")
+print(f"Part 1: a = {a}")
+print(f"Part 1: b = {b}")
+print(f"Part 1: c = {c}")
+print(f"Part 1: result1 = {result1}")
 
     # End of Part 1 ----------------------
 
