@@ -51,11 +51,11 @@ a=1.5
 b=7
 c=-1
 result1 = (3*x - 9*y)//((2*a)*(b-c))
-print(f"Part 1: x = {x}")
-print(f"Part 1: y = {y}")
-print(f"Part 1: a = {a}")
-print(f"Part 1: b = {b}")
-print(f"Part 1: c = {c}")
+print(f"Part 1: x = 27")
+print(f"Part 1: y = 1")
+print(f"Part 1: a = 1.5")
+print(f"Part 1: b = 7")
+print(f"Part 1: c = -1")
 print(f"Part 1: result = {result1}")
     # End of Part 1 ----------------------
 
@@ -77,8 +77,11 @@ print(f"Part 2: result = {result2}")
     # =============================================
     # Your code for part 3 under this line and before the print statements
 a=100
+# representing the total number of treats
 b=13
+# representing the total number of dogs
 result3 = a//b
+# representing the number of whole (integer) treats that each dog gets
 print(f"Part 3: a = {a}")
 print(f"Part 3: b = {b}")
 print(f"Part 3: result = {result3}")
@@ -89,6 +92,7 @@ print(f"Part 3: result = {result3}")
     # =============================================
     # Your code for part 4 under this line and before the print statements
 result4 = a%b
+# representing the number of whole (integer) leftover treats that we have after giving each dog an equal number of treats
 print(f"Part 4: result = {result4}")
     # End of Part 4 ----------------------
 
