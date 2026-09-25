@@ -45,30 +45,36 @@ def main():
     # Part 1: Basic Operations
     # =============================================
     # Your code for part 1 under this line and before the print statements
-x=27
-y=1
-a=1.5
-b=7
-c=-1
-result1 = (3*x - 9*y)//((2*a)*(b-c))
-print(f"Part 1: x = 27")
-print(f"Part 1: y = 1")
-print(f"Part 1: a = 1.5")
-print(f"Part 1: b = 7")
-print(f"Part 1: c = -1")
-print(f"Part 1: result = {result1}")
+    # reassigning variables
+    x = 27
+    y = 1
+    a = 1.5
+    b = 7
+    c = -1
+    result1 = (3*x - 9*y)//((2*a)*(b-c))
+    # f"Part 1: x = {x}" didn't pass test, "Part 1: x = 27" didn't pass, 'Part 1: x = 27' didn't pass 
+    # printing new variables 
+    print(f"Part 1: x = {x}")
+    #print("x =", x)?
+    print(f"Part 1: y = {y}")
+    print(f"Part 1: a = {a}")
+    print(f"Part 1: b = {b}")
+    print(f"Part 1: c = {c}")
+    print(f"Part 1: result = {result1}")
     # End of Part 1 ----------------------
 
 
     # Part 2: Power
     # =============================================
     # Your code for part 2 under this line and before the print statements
-x=5
-y=-3
-result2 = (x**2)*(y**4)
-print(f"Part 2: x = {x}")
-print(f"Part 2: y = {y}")
-print(f"Part 2: result = {result2}")
+    # reassigning variables 
+    x = 5
+    y = -3
+    result2 = (x**2)*(y**4)
+    # printing new variables
+    print(f"Part 2: x = {x}")
+    print(f"Part 2: y = {y}")
+    print(f"Part 2: result = {result2}")
     # End of Part 2 ----------------------
 
 
@@ -76,24 +82,28 @@ print(f"Part 2: result = {result2}")
     # Part 3: Integer divide
     # =============================================
     # Your code for part 3 under this line and before the print statements
-a=100
-# representing the total number of treats
-b=13
-# representing the total number of dogs
-result3 = a//b
-# representing the number of whole (integer) treats that each dog gets
-print(f"Part 3: a = {a}")
-print(f"Part 3: b = {b}")
-print(f"Part 3: result = {result3}")
+    #reassigning variables
+    a = 100
+    # representing the total number of treats
+    b = 13
+    # representing the total number of dogs
+    result3 = a//b
+    # representing the number of whole (integer) treats that each dog gets
+    # printing new variables
+    print(f"Part 3: a = {a}")
+    print(f"Part 3: b = {b}")
+    print(f"Part 3: result = {result3}")
     # End of Part 3 ----------------------
 
 
     # Part 4: Modulo
     # =============================================
     # Your code for part 4 under this line and before the print statements
-result4 = a%b
-# representing the number of whole (integer) leftover treats that we have after giving each dog an equal number of treats
-print(f"Part 4: result = {result4}")
+    # reassigning variable
+    result4 = a%b
+    # representing the number of whole (integer) leftover treats that we have after giving each dog an equal number of treats
+    # printing new variable
+    print(f"Part 4: result = {result4}")
     # End of Part 4 ----------------------
 
 if __name__ == "__main__":
